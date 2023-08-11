@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import axios from "axios"
 import Formtable from "./components/Formtable"
 
-axios.defaults.baseURL = "http://localhost:8080/"
+axios.defaults.baseURL = "https://crud-operation-l4fd.onrender.com/"
 
 function App() {
   const [addSection, setAddSection] = useState(false)
